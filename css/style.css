@@ -27,14 +27,15 @@ footer {
   justify-content: flex-start;
   margin: 20px;
   font-size: 30px;
-  font-size: 90%; }
+   }
 
 .options {
   line-height: 40px;
   opacity: 0.8;
   font-size: 22px;
-  font-size: 90%;
-  line-height: 20px; }
+  margin-left: 20px;
+  
+   }
 
 .final {
   display: grid;
@@ -43,7 +44,7 @@ footer {
   align-items: end;
   height: 60px;
   padding: 20px;
-  font-size: 10px; }
+   }
 
 @media (max-width: 768px) {
   footer {
@@ -55,15 +56,20 @@ footer {
     grid-template-rows: repeat(3, 1fr); }
   .titles {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    font-size: 90%; }
   .options {
     display: grid;
     justify-content: center;
-    text-align: center; }
+    text-align: center; 
+    font-size: 90%;
+    line-height: 20px;
+  margin: 0;}
   .final {
     place-content: center;
     font-size: 70%;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; 
+    font-size: 10px;} }
 
 * {
   margin: 0;
